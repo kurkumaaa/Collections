@@ -40,7 +40,7 @@ fun exampleLists() {
         "Mercury", "Venus", "Earth", "Mars",
         "Jupiter", "Saturn", "Uranus", "Neptune"
     )
-    mutableSolarSystem.add("Plut")
+    mutableSolarSystem.add("Pluto")
     mutableSolarSystem.add(3, "Theia")
     mutableSolarSystem[3] = "Future Moon"
     println(mutableSolarSystem[3])
